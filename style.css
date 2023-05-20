@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 95vw;
+    z-index: 1;
+    background-color: #cac1a4;
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dropdown-item{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.letra{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
